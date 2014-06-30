@@ -1,12 +1,12 @@
-$(document).ready(draw());
+jQuery(document).ready(draw());
 
 function fun1(func_type,x) {
-    var mult = $("#amplitude").val();
+    var mult = jQuery("#amplitude").val();
     switch(func_type){
         case "Sine":
-            return mult * Math.sin($("#frequency").val() * x);
+            return mult * Math.sin(jQuery("#frequency").val() * x);
         case "Cosine":
-            return mult * Math.cos($("#frequency").val() * x);
+            return mult * Math.cos(jQuery("#frequency").val() * x);
     }
 }
 
@@ -35,7 +35,7 @@ function fun1(func_type,x) {
         ctx.strokeStyle = color;
 
         for (var i=iMin;i<=iMax;i++) {
-            xx = dx*i; yy = scale*func($("#function").val(), xx/scale);
+            xx = dx*i; yy = scale*func(jQuery("#function").val(), xx/scale);
             if (i==iMin) ctx.moveTo(x0+xx,y0-yy);
             else         ctx.lineTo(x0+xx,y0-yy);
         }

@@ -29,16 +29,25 @@
       <file leaf-file-name="function_plot.info" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/function_plot.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="30" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="180">
+            <state line="5" column="30" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function_plot.module" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="function_plot.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/function_plot.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="22" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.7446808" vertical-offset="270" max-vertical-offset="1410">
+            <state line="53" column="22" selection-start="1383" selection-end="1383" vertical-scroll-proportion="-33.125" vertical-offset="0" max-vertical-offset="1410">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function_demo.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/function_demo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="55" selection-start="395" selection-end="395" vertical-scroll-proportion="0.31203565" vertical-offset="0" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -56,6 +65,7 @@
       <list>
         <option value="$PROJECT_DIR$/function_plot.info" />
         <option value="$PROJECT_DIR$/function_plot.module" />
+        <option value="$PROJECT_DIR$/function_demo.js" />
       </list>
     </option>
   </component>
@@ -244,14 +254,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/function_plot.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="30" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+        <state line="5" column="30" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/function_plot.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="22" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.7446808" vertical-offset="270" max-vertical-offset="1410">
+        <state line="53" column="22" selection-start="1383" selection-end="1383" vertical-scroll-proportion="-33.125" vertical-offset="0" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function_demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="55" selection-start="395" selection-end="395" vertical-scroll-proportion="0.31203565" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
