@@ -1,0 +1,6 @@
+;$Id$
+name = Function plotting demo.
+description = Function plotting demo.
+package = bcgreen
+core = 7.x
+files[] = function_plot.module

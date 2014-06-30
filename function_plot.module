@@ -1,0 +1,89 @@
+<?php
+// $Id$
+
+/**
+ * @file
+ * A module exemplifying Drupal coding practices and APIs.
+ *
+ * This module provides a block that lists all of the
+ * installed modules. It illustrates coding standards,
+ * practices, and API use for Drupal 7.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function function_plot_help($path, $arg) {
+    if ($path == 'admin/help#function_plot') {
+        return t('A function plotting demo.');
+    }
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function function_plot_block_info() {
+    $blocks = array();
+
+    $blocks['list_modules'] = array(
+        'info' => t('A function plotting demo.'),
+        'cache' => DRUPAL_NO_CACHE,
+    );
+
+    return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function function_plot_block_view($block_name = '') {
+    drupal_add_js(drupal_get_path('module', 'function_plot') . '/function_demo.js');
+    drupal_add_css(drupal_get_path('module', 'function_plot'). '/bootstrap.min.css');
+    drupal_add_css(drupal_get_path('module', 'function_plot'). '/function_demo.css');
+$content = <<< EOT
+<div class="panel">
+    <div class="panel-body">
+        <h2>HTML 5 Canvas - Graphing Demo</h2>
+    <div class="left">
+        <span class="label label-primary">Function:</span>
+    <select name="function" id="function">
+        <option>Sine</option>
+        <option>Cosine</option>
+    </select>
+    </div>
+    <div class="left">
+        <span class="label label-primary">Amplitude:</span>
+    <select name="amplitude" id="amplitude">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+    </div>
+    <div class="left">
+       <span class="label label-primary">Frequency:</span>
+    <select name="frequency" id="frequency">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+        </div>
+    <div class="left">
+        <button onclick="draw()" type="button" class="btn btn-default">Plot Graph</button>
+    </div>
+    </div>
+<div class="well"><canvas id="canvas" width="700" height="400"></canvas>
+</div>
+<div id="values"></div>
+</div>
+EOT;
+
+
+        $block = array(
+            'subject' => t('Function plot'),
+            'content' => $content,
+        );
+
+        return $block;
+}
