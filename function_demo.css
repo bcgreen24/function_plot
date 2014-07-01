@@ -16,6 +16,7 @@ body{
 #canvas{
     left:0;
     border:solid 1px #ddd;
+    margin-left:-30px;
 
 }
 button{

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60a69749-80ec-4718-8b1b-904aa831074e" name="Default" comment="" />
+    <list default="true" id="60a69749-80ec-4718-8b1b-904aa831074e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/function_demo.css" afterPath="$PROJECT_DIR$/function_demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="FunctionPlotD7Module.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +33,7 @@
       <file leaf-file-name="function_plot.info" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/function_plot.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="30" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+            <state line="5" column="30" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -38,7 +42,7 @@
       <file leaf-file-name="function_plot.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/function_plot.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="22" selection-start="1383" selection-end="1383" vertical-scroll-proportion="-33.125" vertical-offset="0" max-vertical-offset="1410">
+            <state line="53" column="22" selection-start="1383" selection-end="1383" vertical-scroll-proportion="-5.625" vertical-offset="660" max-vertical-offset="1410">
               <folding />
             </state>
           </provider>
@@ -47,7 +51,7 @@
       <file leaf-file-name="function_demo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/function_demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="55" selection-start="395" selection-end="395" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="885">
+            <state line="14" column="55" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -65,7 +69,7 @@
       <file leaf-file-name="function_demo.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/function_demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="11" selection-start="182" selection-end="182" vertical-scroll-proportion="0.24691358" vertical-offset="0" max-vertical-offset="729">
+            <state line="18" column="22" selection-start="288" selection-end="288" vertical-scroll-proportion="0.5625" vertical-offset="0" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
@@ -77,6 +81,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -93,7 +100,7 @@
     <option name="width" value="1594" />
     <option name="height" value="853" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -119,6 +126,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,12 +147,27 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/src/cms-theme-shifu" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="152" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="161" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="167" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1076" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="152" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="161" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="167" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1076" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -186,6 +209,11 @@
       <created>1403537757872</created>
       <updated>1403537757872</updated>
     </task>
+    <task id="LOCAL-00001" summary="canvas CSS">
+      <created>1404183447813</created>
+      <updated>1404183447813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -195,10 +223,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -224,11 +253,48 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="canvas CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="canvas CSS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/function_plot.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function_plot.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="22" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function_demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="55" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function_demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="11" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/function_plot.info">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="30" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="180">
@@ -278,16 +344,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function_plot.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="22" selection-start="1383" selection-end="1383" vertical-scroll-proportion="-33.125" vertical-offset="0" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/function_demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="55" selection-start="395" selection-end="395" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="885">
+        <state line="14" column="55" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
@@ -299,9 +358,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/function_plot.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="22" selection-start="1383" selection-end="1383" vertical-scroll-proportion="-5.625" vertical-offset="660" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/function_demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="182" selection-end="182" vertical-scroll-proportion="0.24691358" vertical-offset="0" max-vertical-offset="729">
+        <state line="18" column="22" selection-start="288" selection-end="288" vertical-scroll-proportion="0.5625" vertical-offset="0" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
